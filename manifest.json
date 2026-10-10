@@ -1,0 +1,31 @@
+{
+  "repo": {
+    "name": "malschaun7 NAS Apps",
+    "icon": "https://raw.githubusercontent.com/malschaun7/terbium-app-repo/main/assets/com.tb.chrome-nas/icon.svg"
+  },
+  "apps": [
+    {
+      "name": "Chrome NAS",
+      "icon": "https://raw.githubusercontent.com/malschaun7/terbium-app-repo/main/assets/com.tb.chrome-nas/icon.svg",
+      "description": "Google Chrome auf dem lokalen NAS. Erfordert den laufenden Chrome-Container im Heimnetz.",
+      "developer": "malschaun7 (Integration); Google (Browser)",
+      "pkg-name": "chrome-nas",
+      "images": [],
+      "wmArgs": {
+        "title": {
+          "text": "Chrome NAS",
+          "weight": 600
+        },
+        "icon": "https://raw.githubusercontent.com/malschaun7/terbium-app-repo/main/assets/com.tb.chrome-nas/icon.svg",
+        "src": "https://192.168.178.168:7777/",
+        "size": {
+          "width": 1200,
+          "height": 800
+        },
+        "single": true,
+        "resizable": true,
+        "proxy": false
+      }
+    }
+  ]
+}
