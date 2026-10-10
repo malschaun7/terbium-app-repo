@@ -7,7 +7,7 @@
     {
       "name": "Chrome NAS",
       "icon": "https://raw.githubusercontent.com/malschaun7/terbium-app-repo/main/assets/com.tb.chrome-nas/icon.svg",
-      "description": "Google Chrome auf dem lokalen NAS.",
+      "description": "Google Chrome auf dem NAS.",
       "developer": "malschaun7",
       "pkg-name": "chrome-nas",
       "images": [],
@@ -17,7 +17,7 @@
           "weight": 600
         },
         "icon": "//raw.githubusercontent.com/malschaun7/terbium-app-repo/main/assets/com.tb.chrome-nas/icon.svg",
-        "src": "//192.168.178.168:7777/",
+        "src": "//chrome.crodo.de/",
         "size": {
           "width": 1200,
           "height": 800
